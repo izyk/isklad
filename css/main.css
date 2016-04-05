@@ -13,6 +13,23 @@ body {
   padding: 0 20px;
   margin: 0 auto; }
 
+.common-navb {
+    display: block;
+    text-align: center;
+    border: 1px solid #f8a403;
+    color: #212121;
+    background: #fff;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+a.common-navb.active,a.common-navb:hover {
+      background: #f8a403;
+      color: #212121;
+      border-color: #f8a403; }
+ 
 header {
   background: #81c784;
   height: 100px; }
@@ -39,22 +56,12 @@ header {
   margin-top: 20px;
   margin-bottom: 20px; }
   #main-nav a {
-    display: block;
     float: left;
     width: 295px;
     margin-right: 7px;
-    text-align: center;
     line-height: 62px;
     text-transform: uppercase;
-    font-size: 18px;
-    color: #212121;
-    background: #fff;
-    border: 1px solid #f8a403;
-    -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    -ms-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear; }
+	font-size: 18px; }
     #main-nav a:nth-child(3) {
       margin-right: 6px; }
     #main-nav a:nth-child(4) {
@@ -64,10 +71,6 @@ header {
       top: 3px;
       margin-right: 2px;
       position: relative; }
-    #main-nav a.active, #main-nav a:hover {
-      background: #f8a403;
-      color: #212121;
-      border-color: #f8a403; }
 
 #content p {
   font-family: Verdana, Arial, sans-serif;
@@ -79,27 +82,13 @@ header {
 #free {
   padding-top: 30px;
   padding-bottom: 10px; }
-  #free a.free {
-    display: block;
+  #free a {
     margin: 0 auto;
     width: 600px;
-    background: #fff;
-    border: 1px solid #f8a403;
-    color: #212121;
-    text-align: center;
     font-size: 26px;
     height: 60px;
-    line-height: 58px;
-    border-radius: 20px;
-    -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    -ms-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear; }
-    #free a.free:hover, #free a.free.active {
-      background: #f8a403;
-      color: #212121;
-      border-color: #f8a403; }
+	line-height: 58px;
+	border-radius: 20px; }
   #free .desc {
     text-align: center;
     color: #3b3a36;
@@ -178,7 +167,7 @@ footer {
     margin: 0 auto 10px auto !important;
     display: block; }
 
-  a.free {
+  #free a {
     width: 80% !important; } }
 @media all and (max-width: 340px) {
   #main-nav a {
