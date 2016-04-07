@@ -87,7 +87,10 @@ a i.fa {
     position: relative; 
     }
 
-#content p {
+#content {
+  min-height: 40%;
+  }
+  #content p {
     font-family: Verdana, Arial, sans-serif;
     line-height: 1.6em;
     font-size: 14px;
