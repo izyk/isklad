@@ -255,8 +255,8 @@ footer #footer-nav a:before {
       height: 15px;
 	  }
 */
-/*
-@media all and (max-width: 519px) {
+
+@media all and (max-width: 599px) {
 .inner {
   max-width: 480px;
   }
@@ -265,7 +265,6 @@ footer #footer-nav a:before {
     width: 98%;
     margin: 1%;
 	}
-*/
 /*
 @media all and (max-width: 340px) {
 #main-nav a {
