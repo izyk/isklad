@@ -10,7 +10,7 @@ body {
 .inner {
   width: 100%;
   max-width: 1240px;
-  min-width: 480px;
+  min-width: 380px;
   margin: 0 auto;
 /*  border: 2px solid #000; */
   padding: 0 20px;
@@ -199,6 +199,27 @@ footer {
     width: 48%;
     margin: 1%;
 	}
+#free a {
+    width: 60%;
+	}
+header {
+  height: 80px;
+  }
+header .logo {
+    width: 190px;
+	}
+header .contact-info {
+    margin-top: -4px;
+	}
+header .contact-info p {
+      font-size: 12px;
+      line-height: 1.2em;
+      margin-bottom: 4px;
+	  }
+header .contact-info .title {
+      font-size: 14px;
+      line-height: 1.2em;
+	  }	
 }
 
 /* header {
